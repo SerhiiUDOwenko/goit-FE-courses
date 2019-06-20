@@ -1,0 +1,75 @@
+body, p, button{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #626262;
+}
+/* обёртка всей страницы*/
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.navigation ul{
+    text-align: center;
+     
+}
+
+.navigation li{
+        display: inline-block;
+        text-transform: uppercase;
+        margin-top: 75px;
+        margin-right: 100px;
+        margin-bottom: 100px;
+}
+.navigation li:last-child{
+    margin-right: 0;
+}
+.navigation li a:hover{
+    color: #03a9f4;
+}
+.post-block{
+       width: 900px;
+       font-size: 0px;
+       margin: 0 auto;
+    }
+.post{
+    
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+   }
+ .post h2 {
+    font-size: 29px;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+
+.post:nth-child(even) {
+    margin-right: 0;
+}
+.post:nth-last-child(-n+2){
+    margin-bottom: 55px;
+}
+
+.post img{
+    display: block;
+    width: 100%;
+    margin-bottom: 36px;
+}
+.category {
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+    }
+button {
+    width: 164px;
+    height: 60px;
+    display:block; 
+    margin:0 auto;
+    margin-bottom: 75px;
+    font-size: 20px;
+    border: 1px solid;
+}
