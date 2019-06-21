@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+    .wrapper {
+    width: 1600px;
+    margin:0;
+}
+
+.logo {
+color:  #555252;
+font-size: 30px;
+letter-spacing: -1px;
+line-height: 32px;
+font-family: "Roboto";
+font-weight: 300;
+text-transform: uppercase;
+margin-left: 30px;
+margin-top: 35px;
+float: left;
+overflow: hidden;
+
+}
+.logo::first-letter { 
+color: #1abc9c;
+font-weight: 900;  
+}
+.navigation{
+  max-width: 660px;
+   margin-top: 35px;
+   
+}
+
+
+.navigation ul {
+    display: inline-block;
+    float: right;
+    text-transform: uppercase;   
+margin: 0;
+}
+li {
+    display: inline-block;
+  margin-right: 30px;  
+    
+} 
+li:last-child {
+    margin-right: 0;
+}
+   
+  li:hover {
+  color: #1abc9c; 
+  }
+  li a:after {
+    content: none;
+  }
+
+.FP {
+    display: inline-block;
+    font-size: 0;
+}
