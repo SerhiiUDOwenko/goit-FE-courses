@@ -1,3 +1,4 @@
+/* задаём общие стили для большинства повторяющихся элементов*/
 body, p, button{
     font-family: 'Playfair Display', serif;
     font-size: 14px;
@@ -10,12 +11,13 @@ body, p, button{
     width: 900px;
     margin: 0 auto;
 }
-
+/*центрируем главное меню*/
 .navigation ul{
     text-align: center;
      
 }
-
+/*отображаем пункты в строку, задаём верхний кегль тексту, 
+создаём отступы*/
 .navigation li{
         display: inline-block;
         text-transform: uppercase;
@@ -23,17 +25,22 @@ body, p, button{
         margin-right: 100px;
         margin-bottom: 100px;
 }
+/* убираем отступ справа у последнего пункта*/
 .navigation li:last-child{
     margin-right: 0;
 }
+/*меняем цвет текста в меню при наведении на него*/
 .navigation li a:hover{
     color: #03a9f4;
 }
+/* создём обёртку для основного блока страницы*/
 .post-block{
        width: 900px;
        font-size: 0px;
        margin: 0 auto;
     }
+ /*отдельно задаём параметры для статей*/
+ 
 .post{
     
     display: inline-block;
@@ -66,7 +73,7 @@ body, p, button{
     color: #b4ad9e;
     margin-bottom: 28px;
     }
-button {
+.btn-more {
     width: 164px;
     height: 60px;
     display:block; 
