@@ -7,82 +7,78 @@
     <title>homework module 4</title>
     <link rel="stylesheet" href="./styles.css/reset.css" />
     <link rel="stylesheet" href="./styles.css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto:400,900&display=swap"
-      rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,700,900&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
   </head>
   <body>
-    <div class="wrapper">       
-        <nav class="navigation">
-                <div class="logo" >
-                        <a href="/">mart</a>
-                        </div>
-          <ul>
-            <li>about us</li>
-            <li>home</li>
-            <li>shop</li>
-            <li>blog</li>
-            <li>contact us</li>
-            <li>page</li>
+    <header class="page-header clearfix">
+      <div class="logo" >
+      <h1><a href="/index.html">mart</a></h1> 
+      </div>    
+      <nav class="page-nav-container">
+          <ul class="site-navigation-clearfix">
+            <li><a href="#">home</a> </li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">page</a></li>
+            <li><a href="#">shop</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">contact us</a></li>
           </ul>
         </nav>
-    </div>
+      </header>
     <!--FP=FEATURED PRODUCTS-->
-    <div class="FP">
-      <h2>featured products</h2>
-      <section class="product-card">
-        <img src="./img/product/product1@1X.png" />
-        <p class="product name"></p>
-        <p class="price"></p>
-      </section>
 
-      <section class="product-card">
-        <img src="./img/product/product2@1x.png" />
-        <p class="product name"></p>
-        <p class="price"></p>
-      </section>
-
-      <section class="product-card">
-        <img src="./img/product/product9@1X.png" />
-        <p class="product name"></p>
-        <p class="price"></p>
-      </section>
-
-      <section class="product-card">
-        <img src="./img/product/product4@1X.png" />
-        <p class="product name"></p>
-        <p class="price"></p>
-      </section>
-      <section class="product-card">
-        <img src="./img/product/product3@1X.png" />
-        <p class="product name"></p>
-        <p class="price"></p>
-      </section>
-      <section class="product-card">
-        <img src="./img/product/product5@1X.png" />
-        <p class="product name"></p>
-        <p class="price"></p>
-      </section>
-      <section class="product-card">
-        <img src="./img/product/product6@1X.png" />
-        <p class="product name"></p>
-        <p class="price"></p>
-      </section>
-      <section class="product-card">
-        <img src="./img/product/product8@1X.png" />
-        <p class="product name"></p>
-        <p class="price"></p>
-      </section>
-    </div>
-    <div class="blog">
+    <h2>featured products</h2>
+ 
+    <div class="gallery-clearfix">
+      <div class="gallery-item">
+          <img src="./img/product/product1@1X.png" alt="" width="254px" height="282px">
+          <p>blue tshirt</p>
+          <p>$26</p>
+      </div>
+      <div class="gallery-item">
+          <img src="./img/product/product2@1X.png" alt="" width="254px" height="282">
+          <p>woman shirt</p>
+          <p>$31</p>
+      </div>
+      <div class="gallery-item">
+          <img src="./img/product/product3@1X.png" alt="" width="254" height="282">
+          <p>yellow tshirt</p>
+          <p>$21</p>
+      </div>
+      <div class="gallery-item">
+          <img src="./img/product/product4@1X.png" alt="" width="254" height="282">
+          <p>cool lingerie</p>
+          <p>$56</p>
+      </div>
+      <div class="gallery-item">
+          <img src="./img/product/product5@1X.png" alt="" width="254" height="282">
+          <p>blue tshirt</p>
+          <p>$26</p>
+      </div>
+      <div class="gallery-item">
+          <img src="./img/product/product6@1X.png" alt="" width="254" height="282">
+          <p>woman shirt</p>
+          <p>$31</p>
+      </div>
+      <div class="gallery-item">
+          <img src="./img/product/product8@1X.png" alt="" width="254" height="282">
+          <p>yellow tshirt</p>
+          <p>$21</p>
+      </div>
+      <div class="gallery-item">
+          <img src="./img/product/product9@1X.png" alt="" width="254" height="282">
+          <p>cool lingerie</p>
+          <p>$56</p>
+      </div>
+    </div>                     
+ 
       <!--LT=LATEST NEWS-->
+    <div class="blog">
       <h2>latest news</h2>
 
       <article class="news">
         <img
-          src="./img/news/ipad-632394_960_720@1X.png"
-          alt=""
-          width="350"
-          height="262"
+          src="./img/news/ipad-632394_960_720@1X.png" alt="" width="350" height="262"
         />
         <h3>
           Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
@@ -92,7 +88,7 @@
           vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam
           nec tellus a odio tincidunt auctor a ornare
         </p>
-        <button type="button" class="read more">read more</button>
+        <button type="button" class="Read More">Read More</button>
       </article>
 
       <article class="news">
@@ -105,15 +101,13 @@
           vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam
           nec tellus a odio tincidunt auctor a ornare
         </p>
-        <button type="button" class="read more">read more</button>
+        <button type="button" class="Read More">Read More</button>
       </article>
 
       <article class="news">
         <img
-          src="./img/news/product-img-5@1X.png"
-          alt=""
-          width="350"
-          height="262"
+          src="./img/news/product-img-5@1X.png" alt="" width="350" height="262"
+          
         />
         <h3>
           Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
@@ -123,7 +117,7 @@
           vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam
           nec tellus a odio tincidunt auctor a ornare
         </p>
-        <button type="button" class="read more">read more</button>
+        <button type="button" class="Read More">Read More</button>
       </article>
     </div>
   </body>
