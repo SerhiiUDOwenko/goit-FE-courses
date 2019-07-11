@@ -35,7 +35,6 @@ body, p, button{
 }
 /* создём обёртку для основного блока страницы*/
 .post-block{
-       width: 900px;
        font-size: 0px;
        margin: 0 auto;
     }
