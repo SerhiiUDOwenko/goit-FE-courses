@@ -1,7 +1,5 @@
 /*general styles*/
 
-font-family: 'Open Sans', sans-serif;
-
 details :focus {
   color: burlywood;
   border-color: chocolate;
