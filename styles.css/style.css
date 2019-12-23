@@ -1,10 +1,6 @@
 /*general styles*/
 
-.menu ul li {
-  list-style-type: none;
-}
-/*font-family: 'Open Sans', sans-serif;
-font-family: 'Montserrat', sans-serif;*/
+font-family: 'Open Sans', sans-serif;
 
 details :focus {
   color: burlywood;
@@ -34,6 +30,9 @@ details :focus {
   color: #212121;
   line-height: 1.5;
   font-size: 16px;
+}
+ul {
+  list-style-type: none;
 }
 .social-list a {
   text-decoration: none;
