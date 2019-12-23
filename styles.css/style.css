@@ -1,7 +1,92 @@
-html,
-body {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 16px;
+/*general styles*/
+
+.menu ul li {
+  list-style-type: none;
 }
 /*font-family: 'Open Sans', sans-serif;
 font-family: 'Montserrat', sans-serif;*/
+
+details :focus {
+  color: burlywood;
+  border-color: chocolate;
+  border-style: dotted;
+}
+.summary {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+/*news задание 1*/
+
+/*social Задание  2
+Добавь тегам атрибут class и дай им понятные имена классов. При оформлении можно использовать только селекторы класса, потомка или состояния.
+Подключи шрифт PT Sans с сервиса Google Fonts, нужна поддержка кирилицы и вес шрифта 400 и 700. В стили для <body> добавь свойство font-family, не забудь добавить фолбек шрифты.
+Цвет текста в документе по умолчанию - #212121.
+Интерлиньяж в документе по умолчанию - 1.5.
+Размер шрифта в документе по умолчанию - 16px.
+Цвет текста ссылок по умолчанию - #1976D2.
+У ссылок изначально не должно быть подчеркивания.
+При эффекте hover и focus, ссылки меняют цвет текста на #FF4081 и повлялется подчеркивание.
+*/
+.social {
+  font-family: 'PT Sans', sans-serif;
+  color: #212121;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.social-list a {
+  text-decoration: none;
+}
+.social-list :hover {
+  color: #ff4081;
+  text-decoration: underline;
+}
+.social-list :focus {
+  color: #ff4081;
+  text-decoration: underline;
+}
+
+/*blog Задание  3*/
+
+/*header Задание  4
+Добавь оформление цвета и текста в разметку 
+задания номер 4 предыдущего модуля.
+Добавь тегам атрибут class и дай им понятные имена классов. 
+При оформлении можно использовать только селекторы класса, 
+потомка или состояния.
+Подключи шрифт Roboto с сервиса Google Fonts, 
+поддержка кирилицы не нужна, вес шрифта 400. 
+В стили для <body> добавь свойство font-family, 
+не забудь добавить фолбек шрифты.
+Цвет текста в документе по умолчанию - #212121.
+Интерлиньяж в документе по умолчанию - 1.5.
+Размер шрифта в документе по умолчанию - 16px.
+Размер шрифта в логотипе - 18px.
+Цвет и шрифт текста ссылок должен наследоваться.
+У ссылок не должно быть подчеркивания.
+При эффекте hover и focus, ссылки меню и 
+лого меняют цвет текста на #2196F3.
+*/
+.navigation-4 a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #212121;
+  line-height: 1.5;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.navigation-4 .logo a {
+  font-size: 18px;
+}
+.navigation-4 :hover {
+  color: #2196f3;
+}
+.navigation-4 :focus {
+  color: #2196f3;
+}
+
+/*price list  Задание  5*/
+
+/*subscribe Задание  6*/
